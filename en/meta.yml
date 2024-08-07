@@ -1,11 +1,11 @@
-title: default-project-template
+title: Raspberry Pi - Light Dependent Resistor
 hero_image: images/banner.png
-description: default-project-template description
+description: Connect LDRs to your Raspberry Pi to automate projects based on ambient light readings.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
-  - title: Introduction
-  - title: Step title
+  - title: Light Dependent Resistors
+  - title: Using a Light Dependent Resistor
   - title: What next?
