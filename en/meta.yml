@@ -8,4 +8,10 @@ last_tested: "2022-05-19"
 steps:
   - title: Light Dependent Resistors
   - title: Using a Light Dependent Resistor
-  - title: What next?
+    completion:
+    - internal
+    completion:
+    - engaged
+ - title: What can you do now?
+    completion:
+    - external
