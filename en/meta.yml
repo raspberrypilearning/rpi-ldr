@@ -12,6 +12,6 @@ steps:
     - internal
     completion:
     - engaged
- - title: What can you do now?
+  - title: What can you do now?
     completion:
     - external
