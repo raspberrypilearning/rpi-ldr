@@ -2,13 +2,13 @@
 
 ### Analogue inputs
 
-In the world of electrical engineering, there are two type of input and output (I/O): analogue and digital. Digital I/O is fairly easy to understand; it's either *on* or *off*, *1* or *0*.
+In the world of electrical engineering, there are two types of input and output (I/O): analogue and digital. Digital I/O is fairly easy to understand; it's either *on* or *off*, *1* or *0*.
 
 When talking about voltages and the Raspberry Pi, any input that is approximately below 1.8V is considered *off* and anything above 1.8V is considered *on*. For output, 0V is off and 3.3V is on.
 
 Analogue I/O is a little trickier. With an analogue input, we can have a range of voltages from 0V up to 3.3V, and the Raspberry Pi is unable to detect exactly what that voltage is.
 
-![A diagram comparing analogue and digital inputs. On the left, a red waveform graph represents analogue inputs, which can vary continuously between 0V and 3.3V. Below the graph, a caption reads, "Analogue inputs could be given a range of voltages, anywhere from 0V up to 3.3V." On the right, a red square wave graph represents digital inputs, which are either on or off. Below the graph, a caption reads, "Digital inputs are either on or off. Any voltage above 1.8V is considered on, and below that is considered off."](images/analogue-digital.png)
+![A diagram comparing analogue and digital inputs. On the left, a red waveform graph represents analogue inputs, which can vary continuously between 0V and 3.3V. Below the graph, a caption reads, "Analogue inputs could be given a range of voltages, anywhere from 0V up to 3.3V." On the right, a red square wave graph represents digital inputs, which are either on or off. Below the graph, a caption reads, "Digital inputs are either on or off. Any voltage above 1.8V is considered on, and below that is considered off."](images/analogue-digital.jpg)
 
 
 ### Using a capacitor for analogue inputs
@@ -73,7 +73,7 @@ Use the following code to set up the light sensor:
 ```python
   from gpiozero import LightSensor, Buzzer
 
-  ldr = LightSensor(4)  # alter if using a different pin
+  ldr = LightSensor(17)  # alter if using a different pin
   while True:
       print(ldr.value)
 
