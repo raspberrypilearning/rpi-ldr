@@ -73,7 +73,7 @@ Use the following code to set up the light sensor:
 ```python
 from gpiozero import LightSensor, Buzzer
 
-ldr = LightSensor(17)  # alter if using a different pin
+ldr = LightSensor(4)  # alter if using a different pin
 while True:
     print(ldr.value)
 
